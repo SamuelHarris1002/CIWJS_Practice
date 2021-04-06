@@ -92,3 +92,36 @@ const binary = (arr, target) => {
 console.log(linear(unsortedArr, 40));
 console.log(binary(sortedArr, 44));
 console.log(binary(sortedArr, 43));
+
+
+
+
+
+
+
+
+
+
+
+////leet code problem 9///////
+
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function(x) {
+    
+    if(x.toString() == x.toString().split("").reverse().join("")) return true;
+    return false;
+};
+
+
+////leet code problem 34///////
+
+
+
+
+
+
+
+////leet code problem 412///////
